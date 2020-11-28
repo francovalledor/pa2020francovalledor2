@@ -3,8 +3,6 @@ import { fetchJSON } from "../utils/utils";
 const API_URL = "https://api.mercadolibre.com/";
 
 export class MELI {
-  constructor() {}
-
   static async searchProduct(title, filters = {}) {
     let endPoint = `sites/MLA/search?q=${title}`;
 
