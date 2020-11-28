@@ -31,7 +31,7 @@ export function Product(props) {
           <a
             type="button"
             target="_blank"
-            rel="noreferrer"
+            rel="noopener noreferrer"
             href={product.permalink}
             className="btn btn-lg btn-block btn-primary"
           >
